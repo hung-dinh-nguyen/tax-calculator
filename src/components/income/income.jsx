@@ -2,7 +2,7 @@ import './income.css'
 
 const Income = (props) => {
     return (
-        <div className='Income'>
+        <div className='income'>
             <h3>Income</h3>
             <input 
                 id='incomeInput' 

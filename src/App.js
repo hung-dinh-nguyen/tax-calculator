@@ -1,16 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import FederalTax from './components/federal-tax/federal-tax';
 
 class App extends React.Component{
   constructor(props) {
       super(props); 
       this.state = {
-          income: 0;  
+        income: 0;  
+        federalTax: 0;
       }; 
       this.handleChange = this.handleChange.bind(this);
-
   }
+
+  handleChange(e) {
+    this.setState({
+      income: e.target.value
+    }); 
+    console.log(this.state.income)
+  }
+  
 }
 
 
 export default App;
+
+
