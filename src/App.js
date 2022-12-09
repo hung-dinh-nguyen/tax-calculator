@@ -1,5 +1,6 @@
 import './App.css';
 import FederalTax from './components/federal-tax/federal-tax';
+import Income from './components/income/income';
 
 class App extends React.Component{
   constructor(props) {
@@ -17,7 +18,7 @@ class App extends React.Component{
     }); 
     console.log(this.state.income)
   }
-  
+
 }
 
 
