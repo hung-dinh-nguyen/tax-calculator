@@ -1,6 +1,6 @@
-import './federal-tax.css';
+import './tax-federal.css';
 
-const FederalTax = (props) => 
+const TaxFederal = (props) => 
 {
     function federalCalculatorSingle(income) {
         let grossIncome = income - 12550; 
@@ -96,5 +96,5 @@ console.log(federalCalculatorSingle(100000));
 
 }
 
-export default FederalTax 
+export default TaxFederal 
 
