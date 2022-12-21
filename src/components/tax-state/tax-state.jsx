@@ -2,7 +2,7 @@ import './tax-state.css';
 
 const TaxState = (props) => 
 {
-    function CalculatorStateSingle(income) {
+    function stateCalculatorSingle(income) {
         let grossIncome = income
         console.log(grossIncome);
     
@@ -12,7 +12,7 @@ const TaxState = (props) =>
     
     }
 
-console.log(CalculatorStateSingle(100000));
+console.log(stateCalculatorSingle(100000));
 
     return (
         <div className='taxState'>
